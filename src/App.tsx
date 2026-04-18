@@ -52,7 +52,7 @@ function App() {
 
     formData.append("jd", jd);
 
-    const res = await fetch(" http://0.0.0.0:8000/analyze/", {
+    const res = await fetch("https://ai-resume-screener-6815.onrender.com/analyze/", {
       method: "POST",
       body: formData,
     });
