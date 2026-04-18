@@ -92,6 +92,7 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     width: fit-content;
+    height: 30px;
 }
 
 .page-container {
